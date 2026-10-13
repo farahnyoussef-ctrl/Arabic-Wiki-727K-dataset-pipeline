@@ -2,18 +2,11 @@
 
 A reproducible pipeline that turns the raw Arabic Wikipedia dump into a clean, section-structured corpus in the style of **Wiki-727K** (the English text-segmentation dataset of [Koshorek et al., 2018](https://arxiv.org/abs/1803.09337)). Each article is split into sections and sentences, so the data can be used for text segmentation and other Arabic NLP research.
 
-**Dataset download:** [Hugging Face](ADD_HUGGING_FACE_LINK_HERE)
+## Dataset
 
-## Dataset at a glance
-
-| | |
-|---|---|
-| **Source** | Arabic Wikipedia dump (2021), via [Kaggle](https://www.kaggle.com/datasets/z3rocool/arabic-wikipedia-dump-2021) |
-| **Articles** | [N] |
-| **Sections** | [N] |
-| **Sentences** | [N] |
-| **Language** | Arabic |
-| **Format** | One `.txt` file per article, one sentence per line, section headers marked |
+- **Source:** Arabic Wikipedia dump (2021), via [Kaggle](https://www.kaggle.com/datasets/z3rocool/arabic-wikipedia-dump-2021)
+- **Language:** Arabic
+- **Format:** one `.txt` file per article, one sentence per line, section headers marked
 
 ## File format
 
@@ -89,6 +82,7 @@ Open the notebook in Colab, run the cells in order, and update the output paths 
 
 Python, NLTK, PyArabic, kagglehub, tqdm, Google Colab
 
-## Author
+## Authors
 
-**Farah Youssef** · [LinkedIn](https://linkedin.com/in/farah-yousef-66031a328)
+- **Farah Youssef** · [LinkedIn](https://linkedin.com/in/farah-yousef-66031a328)
+- **Adel Dwaedari**
